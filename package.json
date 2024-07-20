@@ -1,0 +1,27 @@
+{
+  "name": "drizzle-apollo-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "drizzle:push": "drizzle-kit push",
+    "drizzle:studio": "drizzle-kit studio"
+  },
+  "author": "patamimbre",
+  "license": "ISC",
+  "devDependencies": {
+    "drizzle-kit": "^0.23.0",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.10.4",
+    "@libsql/client": "^0.7.0",
+    "drizzle-graphql": "^0.8.4",
+    "drizzle-orm": "^0.32.0",
+    "graphql": "^16.9.0"
+  }
+}
